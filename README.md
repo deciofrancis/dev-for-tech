@@ -1,6 +1,5 @@
-<p align="center">
 # Projetos do Dev For Tech
-
+<p align="center">
 <img alt="Logo do Dev for Tech " src="https://devfortech.corporate.gama.academy/wp-content/uploads/sites/28/2022/04/logotipo-Dev-for-Tech.svg">
 </p>
 
