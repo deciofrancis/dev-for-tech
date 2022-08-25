@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulte um CEP</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header class="busca-header">
+        <h1>BuscaCEP</h1>
+        <div class="busca">
+            <form>
+                <input id="cep-busca" type="number" class="input-busca" maxlength="9" placeholder="Digite um CEP">
+                <a id="btn-busca" class="busca-btn" href="#">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a>           
+        </div>
+        
+    </header>
+    <div class="container">
+        <div class="card">
+            <div class="icon-local">
+                <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="conteiner-text">
+                    <div class="header-card">
+                        <h2>CEP:</h2>
+                        <input id="cep" type="text">
+                    </div>                
+                    <hr>
+                    <p class="texto-p-bold">Endereço:</p>
+                    <input id="logradouro" type="text">
+                    <hr>
+                    <p class="texto-p-bold">Bairro</p>
+                    <input id="bairro" type="text">
+                    <hr>
+                    <p class="texto-p-bold">Cidade</p>
+                    <input id="localidade" type="text">
+                    <hr>
+                    <p class="texto-p-bold">Estado</p>
+                    <input id="uf" type="text">
+                    <input type="reset" value="limpar" class="button-limpar">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
