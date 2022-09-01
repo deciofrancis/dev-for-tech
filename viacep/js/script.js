@@ -1,5 +1,3 @@
-'use strict';
-
 const buscaCep = (result)=>{
     for(const campo in result){
         if(document.querySelector("#"+campo)){
